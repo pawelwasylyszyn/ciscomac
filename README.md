@@ -18,17 +18,17 @@ DOCKER EXAMPLE:
 Sending build context to Docker daemon  18.43kB
 Step 1/4 : FROM python:2
  ---> 37093962fbf5
-Step 2/4 : ADD macquery.py /
+ Step 2/4 : ADD macquery.py /
  ---> Using cache
  ---> 630a0283697f
-Step 3/4 : ENTRYPOINT [ "python" ,"/macquery.py" ]
+ Step 3/4 : ENTRYPOINT [ "python" ,"/macquery.py" ]
  ---> Using cache
  ---> 9a2cc14cfcfc
-Step 4/4 : CMD []
+ Step 4/4 : CMD []
  ---> Using cache
  ---> 89bcffcfab64
-Successfully built 89bcffcfab64
-Successfully tagged cisco-mac:latest
+ Successfully built 89bcffcfab64
+ Successfully tagged cisco-mac:latest
 
 # docker run  cisco-mac 000000112233
 Vendor: Xerox Corp
